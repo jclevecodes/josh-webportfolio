@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 import Header from './pagesdata/header/Header.js'
 import AboutMeInfo from './pagesdata/aboutme/AboutMe.js';
@@ -24,6 +25,9 @@ function App() {
           <AboutMeInfo />
         </Route>
       </Switch>
+      <Footer>
+
+      </Footer>
       <GlobalStyle>
 
       </GlobalStyle>
