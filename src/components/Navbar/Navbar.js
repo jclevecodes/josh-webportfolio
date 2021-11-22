@@ -14,7 +14,7 @@ const Navbar = ()=> {
                 <NavbarContainer>
                     <Logo to='/'>
                         <NavIcon />
-                        JCLEVE.
+                        MDJ
                     </Logo>
                     <MobileIcon onClick={ handleClick }>
                         { click ? <FaTimes /> : <FaBars /> }
