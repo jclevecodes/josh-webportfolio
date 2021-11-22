@@ -4,9 +4,13 @@ export const aboutMeInfo = {
     skillOne: 'Python',
     skillTwo: 'Java',
     skillThree: 'C++',
-    skillFour: 'PostgreSQL',
-    skillFive: 'Django',
-    skillSix: 'React',
-    skillSeven: 'Git',
-    skillEight: 'SQL'
+    skillFour: 'HTML',
+    skillFive: 'JavaScript',
+    skillSix: 'CSS',
+    skillSeven: 'React',
+    skillEight: 'Django',
+    skillNine: 'SQL',
+    skillTen: 'Microsoft Access',
+    skillEleven: 'MongoDB'
+    
 };

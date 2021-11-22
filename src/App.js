@@ -7,6 +7,7 @@ import Header from './pagesdata/header/Header.js'
 import AboutMeInfo from './pagesdata/aboutme/AboutMe.js';
 
 
+
 import GlobalStyle from './globalStyles';
 
 import './App.css';

@@ -22,7 +22,7 @@ const Header = ({ headerImg, top, headline, subtext }) => {
                             <SocialStarter>
                                 ______________________
                             </SocialStarter>
-                            <SocialIconLink href={"https://www.instagram.com/jcleve.codes/"} target="_blank" aria-label="Instagram">
+                            <SocialIconLink href={"https://www.instagram.com/mdj.codes/"} target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
                             <SocialIconLink href={"https://www.linkedin.com/in/joshua-cleveland/"} target="_blank" aria-label="LinkedIn">

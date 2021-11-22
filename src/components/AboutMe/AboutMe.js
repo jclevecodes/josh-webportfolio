@@ -3,7 +3,7 @@ import { Container } from '../../globalStyles';
 import DeskImg from '../images/mydesk.jpg';
 import { AboutMeRow, AboutMeCol, TextWrapperInfo, HeadLine, Paragraph, SkillsList, Skill, SkillsHeader, ImgAboutMe, SkillsDiv, SkillsWrapper } from './AboutMe.elements';
 
-const AboutMe = ({ headline, bio, skillOne, skillTwo, skillThree, skillFour, skillFive, skillSix, skillSeven, skillEight, skillsheader }) => {
+const AboutMe = ({ headline, bio, skillOne, skillTwo, skillThree, skillFour, skillFive, skillSix, skillSeven, skillEight, skillNine, skillTen, skillEleven, skillsheader }) => {
     return (
         <>
             <Container>
@@ -26,6 +26,9 @@ const AboutMe = ({ headline, bio, skillOne, skillTwo, skillThree, skillFour, ski
                                     <Skill>{skillSix}</Skill>
                                     <Skill>{skillSeven}</Skill>
                                     <Skill>{skillEight}</Skill>
+                                    <Skill>{skillNine}</Skill>
+                                    <Skill>{skillTen}</Skill>
+                                    <Skill>{skillEleven}</Skill>
                                 </SkillsWrapper>
                             </SkillsList>
                         </SkillsDiv>
