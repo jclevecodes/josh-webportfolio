@@ -14,7 +14,7 @@ const Navbar = ()=> {
                 <NavbarContainer>
                     <Logo to='/'>
                         <NavIcon />
-                        MDJ
+                        JC
                     </Logo>
                     <MobileIcon onClick={ handleClick }>
                         { click ? <FaTimes /> : <FaBars /> }
@@ -26,8 +26,8 @@ const Navbar = ()=> {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/blog'>
-                                Blog
+                            <NavLinks to='/contactform'>
+                                Contact Me
                             </NavLinks>
                         </NavItem>
                         <NavItemBtn>
