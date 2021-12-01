@@ -26,9 +26,10 @@ flex-basis: 50%;
 `
 export const TextWrapperInfo = styled.div`
 max-width: 540px;
+border-radius: 4px;
 padding-top: 0px;
 padding-bottom: 60px;
-
+backround-color: #fff;
 `
 
 export const HeadLine = styled.div`
@@ -45,6 +46,7 @@ margin-bottom: 16px;
 `;
 
 export const Paragraph = styled.div`
+padding: 16px;
 margin-top: 30px;
 width: 1200px;
 font-size: 18px;
@@ -54,6 +56,13 @@ font-family: 'Lato', sans-serif;
 font-weight: 300;
 column-count: 2;
 column-gap: 50px;
+box-shadow: 0 2px 2px rgb(0 0 0 / 3%), 0 6px 5px rgb(0 0 0 / 5%);
+border-radius: 5px;
+background-color: #fff;
+
+&:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
 
 @media screen and (max-width: 812px) {
     max-width: 300px;
@@ -83,7 +92,7 @@ max-width: 300px;
 export const Skill = styled.li`
 font-size: 17px;
 padding: 8px 15px 8px 15px;
-background-color: #f1f1f1;
+background-color: #fff;
 margin-right: 10px;
 border-radius: 5px;
 box-shadow:
@@ -93,7 +102,10 @@ margin-top: 15px;
 font-family: 'Open Sans', sans-serif;
 
 &:hover {
-    background-color: #e9e9e9;
+    
+    background-color: #f1f1f1;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: scale(1.1)
 }
 
 @media screen and (max-width: 812px) {
@@ -162,7 +174,7 @@ box-shadow:
     height: 400px;
     min-width: 320px;
     /* max-height: 500px; */
-    /* width: 500px; */
+    /* width: 50px; */
     /* display: hidden; */
 }
 `

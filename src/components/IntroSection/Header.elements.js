@@ -48,8 +48,16 @@ flex-basis: 50%;
 
 export const TextWrapper = styled.div`
 max-width: 540px;
-padding-top: 0px;
-padding-bottom: 60px;
+padding: 16px;
+padding-top: 30px;
+padding-bottom: 30px;
+box-shadow: 0 2px 2px rgb(0 0 0 / 3%), 0 6px 5px rgb(0 0 0 / 5%);
+border-radius: 5px;
+background-color: #fff;
+
+&:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
 
 @media screen and (max-width: 812px) {
     padding-bottom: 125px;
@@ -122,6 +130,11 @@ box-shadow:
 export const SocialIconLink = styled.a`
 color: #808080;
 font-size: 24px;
+
+&:hover {
+    color: #0030f0;
+}
+
 @media screen and (max-width: 812px) {
     margin-right: 10px;
 }

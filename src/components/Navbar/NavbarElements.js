@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-background: #fff;
 height: 80px;
 display: flex;
 justify-content: center;
@@ -24,6 +23,7 @@ ${Container}
 
 export const Logo = styled(Link)`
 color: #2243c7;
+font-weight: 600;
 justify-self: flex-start;
 cursor: pointer;
 text-decoration: none;
@@ -76,6 +76,7 @@ border-bottom: 2px solid transparent;
 
 export const NavLinks = styled(Link)`
 color: #101522;
+font-weight: 600;
 display: flex;
 align-items: center;
 text-decoration: none;
